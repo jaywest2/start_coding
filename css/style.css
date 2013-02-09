@@ -1,0 +1,87 @@
+body
+{
+    font-family: "Helvetica", sans-serif;
+    min-width: 911px;
+}
+
+
+.b-nav ul
+{
+    position: relative;
+    margin-top: 15px;
+}
+
+.b-nav li
+{
+    display: inline-block;
+}
+
+.b-nav li a
+{
+    font-family: "Helvetica", sans-serif;
+    font-size: 11px;
+    color: rgb(199,199,199);
+    text-decoration: none;
+}
+
+.b-nav li.active a,
+.b-nav li a:hover
+{
+    color: rgb(164,41,33);
+}
+
+.list
+{
+    font-size: 11px;
+    margin-top: 20px;
+    display: block;
+}
+
+.list_item > a
+{
+    text-decoration: none;
+    color: #777;
+}
+
+.list_item
+{
+    /*margin-top: 5px;*/
+}
+
+/** стили для ленточек **
+ * 07.02.13 21:29 *
+ * mir4a
+ -------------------- */
+.b-lenta
+{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 0;
+}
+
+.b-lenta__wrap
+{
+    position: relative;
+}
+
+.b-lenta__left
+{
+    position: absolute;
+    width: 127px;
+    height: 83px;
+    top: 0;
+    left: 0;
+    background: #fff url("../i/top-left.png") no-repeat;
+}
+
+.b-lenta__right
+{
+    position: absolute;
+    width: 752px;
+    height: 389px;
+    top: -1px;
+    right: 0;
+    background: url("../i/top-right.jpg") no-repeat;
+}
+/* (end) стили для ленточек */
